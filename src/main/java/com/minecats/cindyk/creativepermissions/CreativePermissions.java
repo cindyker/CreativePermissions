@@ -44,7 +44,6 @@ public class CreativePermissions extends JavaPlugin implements Listener{
         if(pl == null)
             return;
 
-        boolean creative = false;
         if( !permission.has(pl,"CreativeAllowed")){
                if (pl.getGameMode() == GameMode.CREATIVE)
                     getLogger().info(pl.getName() + " was in Creative, set them to survival");
