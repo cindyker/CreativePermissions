@@ -1,0 +1,5 @@
+name: CreativePermissions
+main: com.minecats.cindyk.creativepermissions.CreativePermissions
+version: 1.0
+description: Force players who do not have the CreativeAllowed permission into Survival mode on login.
+depend: [Vault]
